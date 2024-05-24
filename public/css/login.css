@@ -110,6 +110,12 @@ footer.footer-2 {
     line-height: normal;
 }
 
+.formers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .login-from a {
     color: #122CA8;
     font-family: system-ui;
@@ -132,6 +138,7 @@ footer.footer-2 {
     line-height: normal;
     padding: 20px 0px;
     border: none;
+    width: 100% !important;
 }
 
 .login-from span {

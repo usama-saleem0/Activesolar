@@ -29,7 +29,7 @@
         <div class="main-login">
             <div class="login-from">
                 <h1>Login </h1>
-                    <form  action="{{ route('login') }}" method="post">
+                    <form  action="{{ route('login') }}" method="post" class="formers">
                         @csrf
 
                    

@@ -44,7 +44,7 @@ section.brayn {
     margin: 0px;
 }
 
-.brayn-box form {
+/* .brayn-box form {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -52,6 +52,20 @@ section.brayn {
     gap: 20px 20px;
     padding-top: 44px;
     justify-content: space-between;
+} */
+
+.brayn-box .brayn-form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px 20px;
+    padding-top: 44px;
+    justify-content: space-between;
+}
+
+.brayn-box.aling-left .brayn-form {
+    justify-content: flex-start;
 }
 
 .brayn-in-grouop {
@@ -506,10 +520,10 @@ button.part-2-btn-a:hover {
     border-right: 1px solid #000;
     width: 50%;
 }
-
+/* 
 .brayn-box.aling-left form {
     justify-content: flex-start;
-}
+} */
 
 @media screen and (max-width: 1600px){
 
@@ -639,6 +653,10 @@ button.part-2-btn-a:hover {
     
     .Jessica-box h1 {
         font-size: 28px;
+    }
+
+    .brayn-box .brayn-form {
+        gap: 20px 10px;
     }
     
     section.brayn {

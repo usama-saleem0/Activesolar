@@ -20,3 +20,8 @@ Route::post('/login', [AuthController::class ,'login'])->name('login');
 Route::get('/', function () {
     return view('auth.login');
 });
+
+
+Route::get('/entryform', function () {
+    return view('welcome');
+});
